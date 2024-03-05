@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Navbar</title>
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: rgb(86, 179, 86);
+            color: black;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: none;
+            color: black;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: black;
+        }
+
+        #content {
+            height: 150px;
+            width: 1200px;
+            margin: auto;
+            /* background-color: rgb(242, 238, 238); */
+            margin-top: 50px;
+        }
+
+        #card-container {
+            display: flex;
+            justify-content: space-around;
+            margin: auto;
+            margin-top: 3px;
+           
+            width: 1200px;
+            height: 400px;
+            padding: 0%;
+        }
+
+        .card {
+            
+            display: flex;
+            flex-direction: column; 
+            align-items: center;
+            margin: auto;
+            height: 260px;
+            width: 300px;
+            padding: 15px;
+            background-color: rgb(242, 238, 238);
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo"> Master Chef</div>
+        <div class="nav-links">
+            <b>
+                <a href="#">List foods</a>
+                <a href="#">sign-in</a>
+                <a href="#">signup</a>
+            </b>
+        </div>
+    </header>
+
+    <div id="content">
+        <p>
+            Food is a fundamental aspect of human life, providing nourishment and sustenance necessary for survival. It encompasses a vast array of ingredients, flavors, and cultural significance across the globe. The preparation and consumption of food vary greatly depending on geographical location, traditions, and personal preferences. Nutrients found in food, such as carbohydrates, proteins, fats, vitamins, and minerals, play vital roles in maintaining overall health and well-being. Agriculture, farming, and food production industries are essential for supplying the population with a diverse range of food options. The culinary arts celebrate the creativity and skill involved in cooking, baking, and food presentation, often reflecting cultural heritage and innovation. Food brings people together, fostering social connections and community bonding through shared meals and culinary experiences. Issues such as food security, sustainability, and food waste continue to challenge societies globally, highlighting the importance of responsible food practices. Culinary tourism has become increasingly popular, with travelers seeking authentic gastronomic experiences in various destinations worldwide. Overall, food serves as more than mere sustenance; it is a reflection of cultural identity, social interaction, and human ingenuity.
+        </p>
+    </div>
+
+    <div id="card-container">
+        <div class="card">
+            <b><h3>North Indian Foods</h3></b><br>
+            <p>North Indian cuisine is renowned for its rich flavors, aromatic spices, and diverse range of dishes. . Popular dishes include biryani, butter chicken, naan bread, and various types of kebabs. The cuisine is characterized by its use of ingredients like cumin, coriander, turmeric, and cardamom, creating a vibrant and tantalizing culinary experience.
+            </p>
+        </div>
+        <div class="card">
+            <b><h3>South Indian Foods</h3></b><br>
+            <p>South Indian food is characterized by its extensive use of rice, lentils, and coconut in various dishes. Staples like dosa, idli, and vada are popular breakfast items, often served with coconut chutney and sambar. Spices like curry leaves, mustard seeds, and red chilies impart distinct flavors to dishes, creating a unique culinary experience cherished by many.
+            </p>
+        </div>
+        <div class="card">
+            <b><h3>Chinese Food</h3></b><br>
+            <p>Chinese Indian food, also known as Indo-Chinese cuisine, is a fusion of Chinese flavors and Indian spices, resulting in a unique culinary experience. Popular dishes include chili chicken, Manchurian, Hakka noodles, and fried rice, which have become staples in Indian cuisine, reflecting the rich diversity and cross-cultural influences within the region's culinary landscape.
+            </p>
+        </div>
+    </div>
+
+</body>
+
+</html>
